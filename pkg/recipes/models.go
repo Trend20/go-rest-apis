@@ -2,8 +2,8 @@ package recipes
 
 // Recipe struct
 type Recipe struct {
-	Name        string   `json:"name"`
-	Ingredients []string `json:"ingredients"`
+	Name        string       `json:"name"`
+	Ingredients []Ingredient `json:"ingredients"`
 }
 
 // Individual Ingredient struct
